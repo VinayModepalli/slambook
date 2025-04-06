@@ -4,13 +4,14 @@ import Login from "./pages/Login.jsx";
 import Signup from "./pages/Signup.jsx";
 import HomePage from "./pages/HomePage.jsx";
 import Dashboard from "./pages/Dashboard.jsx";
+import Navbar from "./components/Navbar.jsx";
 
 
 function App() {
 
   return (
     <>
-        <h1>Hello</h1>
+        <Navbar />
         <Routes>
           <Route path="login" element={<Login />} />
           <Route path="signup" element={<Signup />} />
